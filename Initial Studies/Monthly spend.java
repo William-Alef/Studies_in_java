@@ -12,7 +12,7 @@ class GastoTrimestral {
         int SomaTrimestal = ja + fev + mar;
             System.out.println(SomaTrimestal);
 
-        int MediaMensal = SomaTrimestal /3;
+        int MediaMensal = SomaTrimestal / 3;
             System.out.println(MediaMensal);
     }
 }
