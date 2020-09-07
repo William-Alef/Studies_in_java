@@ -9,7 +9,7 @@ class GastoTrimestral {
         int mar = 17000;
             System.out.println(mar);
 
-        int SomaTrimestal = ja + fev + mar;
+        int SomaTrimestral = ja + fev + mar;
             System.out.println(SomaTrimestal);
 
         int MediaMensal = SomaTrimestal /3;
