@@ -3,14 +3,14 @@ import java.util.Scanner;
 	public class Calculator {
 
 	public static void main(String[] args) {
-	Scanner ler = new Scanner (System.in);
+	Scanner read = new Scanner (System.in);
 	int a, b;
 
 		System.out.printf("Type a number: ");
-		a = ler.nextInt();
+		a = read.nextInt();
 
 		System.out.printf("Other number: ");
-		b = ler.nextInt();
+		b = read.nextInt();
 
 		System.out.printf("\nResult: \n");
 		System.out.printf("\n%d + %d = %3d\n", a, b, (a + b));
