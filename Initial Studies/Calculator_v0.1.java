@@ -17,6 +17,6 @@ import java.util.Scanner;
 		System.out.printf("\n%d - %d = %3d\n", a, b, (a - b));
 		System.out.printf("\n%d * %d = %3d\n", a, b, (a * b));
 		System.out.printf("\n%d / %d = %3d (Division)\n", a ,b, (a / b));
-		System.out.printf("\n%d / %d = %6.2f (Rest of division)\n", a, b, ((double)a / b));
+		System.out.printf("\n%d / %d = %6.2f (The remainder of the division)\n", a, b, ((double)a / b));
 	}			
 }
