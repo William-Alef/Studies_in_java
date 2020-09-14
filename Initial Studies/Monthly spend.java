@@ -1,4 +1,4 @@
-class GastoTrimestral {
+class monthlySpend {
     public static void main (String[] args) {
         int ja = 15000;
             System.out.println(ja);
