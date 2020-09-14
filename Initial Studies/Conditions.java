@@ -1,6 +1,6 @@
 import java.util.Scanner;
     
-class have {
+class Conditions {
     public static void main(String[] args) {
 
         Scanner Scan = new Scanner(System.in);
