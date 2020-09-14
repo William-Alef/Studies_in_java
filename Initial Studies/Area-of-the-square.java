@@ -1,7 +1,7 @@
 import java.security.Principal;
 import java.util.Scanner;
     
-class exer {
+class areaOfTheSquare {
 public static void main(String[] args) {
 
     Scanner scan = new Scanner(System.in);
