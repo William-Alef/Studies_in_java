@@ -24,10 +24,10 @@ class conditionalSwitchCase {
                 System.out.println("Friday!");
             }
             else if (day == 5){
-                System.out.println("Saturday");
+                System.out.println("Saturday!");
             }
             else if (day == 6){
-                System.out.println("!Sunday");
+                System.out.println("Sunday!");
             }
             else {
                 System.out.println("It's a invalid number!!");
