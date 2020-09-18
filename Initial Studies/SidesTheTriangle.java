@@ -21,17 +21,17 @@ public class SidesTheTriangle {
         }
         if((fSide == sSide) &&
             ((sSide == tSide))){
-            System.out.println("Equilateral triangle.");
+            System.out.println("Type: Equilateral triangle.");
         }
         else if((fSide == sSide)||
         ((sSide == tSide)) ||
         (tSide == fSide)){
-            System.out.println("Isosceles triangle.");
+            System.out.println("Type: Isosceles triangle.");
         } 
         else if ((fSide != sSide)||
         ((sSide != tSide)) ||
         (tSide != fSide)){
-            System.out.println("Scalene triangle.");
+            System.out.println("Type: Scalene triangle.");
 
         }
         else {
