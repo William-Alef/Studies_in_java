@@ -24,12 +24,12 @@ public class SidesTheTriangle {
           ((sSide == tSide))){
             System.out.println("Type: Equilateral triangle.");
         }
-        else if((fSide == sSide)||
+        else if((fSide == sSide) ||
                ((sSide == tSide)) ||
                 (tSide == fSide)){
             System.out.println("Type: Isosceles triangle.");
         } 
-        else if ((fSide != sSide)||
+        else if ((fSide != sSide) ||
                 ((sSide != tSide)) ||
                  (tSide != fSide)){
             System.out.println("Type: Scalene triangle.");
