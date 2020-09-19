@@ -16,8 +16,8 @@ public class SidesTheTriangle {
             System.out.println("");
 
         if ((fSide + sSide) > tSide &&
-            ((fSide + tSide) > sSide &&
-            ((sSide + tSide) > fSide))){   
+           ((fSide + tSide) > sSide &&
+           ((sSide + tSide) > fSide))){   
             System.out.println("Can be a triangle."); 
         }
         if((fSide == sSide) &&
@@ -26,12 +26,12 @@ public class SidesTheTriangle {
         }
         else if((fSide == sSide)||
                ((sSide == tSide)) ||
-               (tSide == fSide)){
+                (tSide == fSide)){
             System.out.println("Type: Isosceles triangle.");
         } 
         else if ((fSide != sSide)||
                 ((sSide != tSide)) ||
-                (tSide != fSide)){
+                 (tSide != fSide)){
             System.out.println("Type: Scalene triangle.");
 
         }
