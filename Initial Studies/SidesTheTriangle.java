@@ -4,6 +4,7 @@ public class SidesTheTriangle {
     public static void main(String[] args) {
     
         Scanner scan = new Scanner(System.in);
+        
         System.out.print("Enter the first side: ");
             double fSide = scan.nextDouble();
 
@@ -20,17 +21,17 @@ public class SidesTheTriangle {
             System.out.println("Can be a triangle."); 
         }
         if((fSide == sSide) &&
-            ((sSide == tSide))){
+          ((sSide == tSide))){
             System.out.println("Type: Equilateral triangle.");
         }
         else if((fSide == sSide)||
-        ((sSide == tSide)) ||
-        (tSide == fSide)){
+               ((sSide == tSide)) ||
+               (tSide == fSide)){
             System.out.println("Type: Isosceles triangle.");
         } 
         else if ((fSide != sSide)||
-        ((sSide != tSide)) ||
-        (tSide != fSide)){
+                ((sSide != tSide)) ||
+                (tSide != fSide)){
             System.out.println("Type: Scalene triangle.");
 
         }
