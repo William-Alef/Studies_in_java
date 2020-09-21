@@ -6,7 +6,7 @@ public class calculate {
     
     Scanner scan = new Scanner(System.in);
 
-    System.out.print("Enter a number: ");
+        System.out.print("Enter a number: ");
             Double n1 = scan.nextDouble();
 
         System.out.print("Enter a another number: ");   
@@ -14,6 +14,7 @@ public class calculate {
 
         System.out.println("Enter a operator: \n(a)+ For addition \n(b)- For subtraction \n(c)* For multiplication \n(d)** For calculate powers \n(e)/ For division.");
             String op = scan.next();
+            System.out.println("");
 
             double ad = (n1 + n2);
             double su = (n1 - n2);
@@ -31,10 +32,17 @@ public class calculate {
             System.out.println(ad);
             if (diva == 0){
                 System.out.println("This number is even.");
+
             }
             else{
                 System.out.println("This number is odd.");
             }
+                if (ad >= 0){
+                    System.out.println("Positive.");
+                }
+                else {
+                    System.out.println("Negative.");
+                }
         }
         else if (op.equalsIgnoreCase("b")){
             System.out.println(su);
@@ -44,6 +52,12 @@ public class calculate {
             else{
                 System.out.println("This number is odd.");
             }
+                if (su >= 0){
+                    System.out.println("Positive.");
+                }
+                else {
+                    System.out.println("Negative.");
+                }
         }
         else if(op.equalsIgnoreCase("c")){
             System.out.println(mu);
@@ -52,7 +66,13 @@ public class calculate {
             }
             else{
                 System.out.println("This number is odd.");
-            }
+            }   
+                if (mu >= 0){
+                    System.out.println("Positive.");
+                }
+                else {
+                    System.out.println("Negative.");
+                }
         }
         else if(op.equalsIgnoreCase("d")){
             System.out.println(po);
@@ -62,15 +82,28 @@ public class calculate {
             else{
                 System.out.println("This number is odd.");
             }
+                if (po >= 0){
+                System.out.println("Positive.");
+                }
+                else {
+                    System.out.println("Negative.");
+                }
         }
         else if(op.equalsIgnoreCase("e")){
             System.out.println(di);
-            if (dive == 0){
-                System.out.println("This number is even.");
-            }
+                if (dive == 0){
+                    System.out.println("This number is even.");
+                }
             else{
-                System.out.println("This number is odd.");
-            }
-        }
+                    System.out.println("This number is odd.");
+            
+                if (di >= 0){
+                    System.out.println("Positive.");
+                }
+                else {
+                    System.out.println("Negative.");
+                }
+            }        
+        }   
     }       
 }
