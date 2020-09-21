@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exAula13a15 {
+public class testYourGuilt {
     public static void main(String[] args) {
     
     Scanner scan = new Scanner(System.in);
