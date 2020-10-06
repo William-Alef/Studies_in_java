@@ -1,6 +1,7 @@
 /**
  * myRestaurant
  */
+import java.util.Scanner;
 public class myRestaurant {
     public static void main(String[] args) {
         
